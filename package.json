@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@types/express": "5.0.0",
-    "@types/faker": "6.6.9",
+    "@types/faker": "^6.6.9",
     "@types/lodash": "4.17.10",
     "@types/node": "22.7.6",
     "ts-node-dev": "2.0.0",

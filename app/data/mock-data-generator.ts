@@ -3,6 +3,7 @@ import * as fileSystemModule from 'fs';
 
 // 3rd party imports
 import * as faker from 'faker';
+
 import * as _ from 'lodash';
 
 // app imports
