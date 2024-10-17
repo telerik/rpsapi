@@ -2,11 +2,12 @@
   "name": "rpsapi",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "build/server.js",
   "scripts": {
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only ./app/server.ts",
-    "prod": "tsc && node ./build/server.js"
+    "prod": "tsc && node ./build/server.js",
+    "postinstall": "npm run tsc"
   },
   "author": "",
   "license": "ISC",

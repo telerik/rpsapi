@@ -86,6 +86,9 @@ app.use((req, res, next) => {
   next();
 });
 
+// Export app for import in frontend
+export default app;
+
 // ROUTES FOR OUR API
 // =================================================================
 const router: Router = express.Router();
